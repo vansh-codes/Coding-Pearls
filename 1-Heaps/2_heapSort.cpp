@@ -16,6 +16,7 @@ void heapify(int arr[], int i, int n){  // O(logN)
         heapify(arr, largest, n);
     }
 }
+
 void heapSort(int arr[], int n){    // O(NlogN)
     // Build heap (rearrange array)
     for (int i = n / 2 - 1; i >= 0; i--)
